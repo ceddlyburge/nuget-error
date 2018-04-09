@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DoublyReferencedTarget\DoublyReferencedTarget.csproj" />
+    <ProjectReference Include="..\Intermediate\Intermediate.csproj" />
+  </ItemGroup>
+</Project>
